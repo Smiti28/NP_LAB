@@ -11,7 +11,7 @@ int main()
     do{
     printf("\n enter number of packets coming at second %d :",i+1);
     scanf("%d",&inp[i]);
-    sum+=inp[i];
+    //sum+=inp[i];
     if(sum>cap)
     {
         printf("Bucket overflow\n");        
